@@ -103,22 +103,22 @@ async def bot_start(event):
                 my_mention=my_mention,
             )
         else:
-            start_msg = f"Hey! 👤{mention},\
-                        \nI am {my_mention}'s assistant bot.\
-                        \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+            start_msg = f"H҉e҉y҉! 👤{mention},\n
+                        \nI҉m҉✅- {my_mention}'s 🇦‌🇸‌🇸‌🇮‌🇸‌🇹‌🇦‌🇳‌🇹‌.\
+                        \n🚶🅈🄾🅄 🄲🄰🄽 🄼🄴🅂🅂🄰🄶🄴\n~🄼🅈~🄼🄰🅂🅃🄴🅁= <b>@Cyber_EpicBot 🤖.</b>\
+                        \n\n           😈-🇦‌🇸‌🇸‌🇮‌🇸‌🇹‌🇦‌🇳‌🇹 ᵒᶠ ᶜˡᵃᵉʸ‌\n"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/sandy1709/catuserbot"),
+                Button.url("M҉y҉ ҉C҉H҉A҉N҉N҉E҉L҉", "https://t.me/PrimeFlixMedia_All"),
                 Button.url(
-                    "Deploy",
-                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fcatpack",
+                    "M҉y҉ ҉G҉R҉O҉U҉P҉",
+                    "httpps://t.me/PrimeFlix_Chats",
                 ),
             )
         ]
     else:
-        start_msg = "Hey Master!\
-            \nHow can i help you ?"
+        start_msg = "<b>H҉e҉y҉ {my_mention}!\
+            \n🄷🄾🅆 🄼🄰🅈 🄸 🄷🄴🄻🄿 🅈🄰?..🤔</b>\n\n          ~🇦‌🇸‌🇸‌🇮‌🇸‌🇹‌🇦‌🇳‌🇹 ᵒᶠ ᶜˡᵃᵉʸ‌"
         buttons = None
     try:
         await event.client.send_message(
